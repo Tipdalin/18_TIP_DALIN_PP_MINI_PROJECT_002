@@ -1,5 +1,3 @@
-// REMOVED: import { use } from "react"; 
-
 export async function loginService(request) {
   const { email, password } = request;
   try {

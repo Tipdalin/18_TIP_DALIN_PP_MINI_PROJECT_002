@@ -8,5 +8,5 @@ export async function proxy(request) {
   }
 }
 export const config = {
-  matcher: ["/products/:path*","/cart/:path*"],
+  matcher: ["/products/:path*"],
 };
